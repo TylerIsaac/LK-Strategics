@@ -69,30 +69,6 @@ section {
   animation: pulse 0.6s ease-in-out;
 }
 
-/* Header */
-.hero-header {
-  padding: 80px 0 10px;
-  background-color: #f8f9fa;
-  text-align: center;
-}
-
-.hero-logo {
-  width: 75%;
-  height: auto;
-  padding: 50px 0 10px;
-}
-
-.hero-header h1 {
-  font-size: 2.2rem;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.hero-header p {
-  font-size: 1.1rem;
-  color: #555;
-}
-
 /* Cases Section - Responsive Image Collage using Flex */
 .image-collage {
   display: flex;
@@ -213,7 +189,35 @@ iframe {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
+.hero-header {
+  padding: 80px 0 60px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.hero-header img {
+  width: 120px !important;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.container div {
+  display: block;
+  width: 120px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.hero-header p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
 @media only screen and (max-width: 480px) {
+  .hero-logo {
+    width: 140px;
+  }
+
   .image-collage {
     gap: 4px;
   }
@@ -221,6 +225,20 @@ iframe {
   .image-collage img {
     width: 100px;
     height: 130px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-logo {
+    width: 160px;
+  }
+
+  .hero-header h1 {
+    font-size: 3rem;
+  }
+
+  .hero-header p {
+    font-size: 1.3rem;
   }
 }
 
@@ -234,9 +252,5 @@ iframe {
 
   .item-order {
     order: 2;
-  }
-
-  .hero-logo {
-    width: 50%;
   }
 }
