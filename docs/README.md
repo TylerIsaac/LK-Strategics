@@ -3,7 +3,7 @@
 A modern, responsive one-page website for **LK Strategics**, a boutique consultancy specializing in fashion communication, brand development, and strategic launches. This site was designed to showcase services, highlight successful brand collaborations, and provide a downloadable PR guide.
 
 ## 🔗 Live Site
-[https://yourusername.github.io/lizaPortfolio/](https://yourusername.github.io/lizaPortfolio/)
+[https://lkstrategics.com/](https://lkstrategics.com/)
 
 ## 📁 Folder Structure
 
